@@ -1,20 +1,24 @@
 # Coaching System — Setup Guide
 
-A personal executive function coaching system built on plain markdown files and Claude. Designed for students and early-career researchers who need more structure, more follow-through, and a sense of urgency on long-horizon work that has no immediate deadline.
+A personal executive function coaching system built on plain markdown files and Claude. Designed for students and early-career researchers who need more structure, more follow-through, and a sense of urgency on long-horizon work that has no immediate deadline. The guiding principles are based on my experience and the insights from the book Inside the Box by David Epstein. The book describes the usefulness of internal and external constraints on creativity and other outcomes. The more the coaching sysmte is used, the better it works since it creates "memories" based on patterns detected. Memories are just a collection of text files (markdown) with lessons learned through the use of the system. 
 
 ## What this is
 
-A folder. That's it. The folder contains a few markdown files Claude reads and writes to as you work with it. There is no app to install, no subscription, nothing that can break. The data is plain text, readable by any editor, syncable through Dropbox or iCloud, and yours to keep forever.
+A folder with a few markdown files Claude (or another similar system) reads and writes to as you work with it. There is no app to install, no subscription, nothing that can break. The data is plain text, readable by any editor, syncable through Dropbox or iCloud.
 
-Claude reads the protocol from `CLAUDE.md` at the root of this folder and acts as your coach. You talk to it in plain language ("morning," "check in," "shutdown," "weekly review"). It runs short protocols, writes structured logs, and over weeks builds a longitudinal record that no human coach could hold in memory.
+Claude reads the protocol from `CLAUDE.md` at the root of this folder and acts as your coach/assistant. You talk to it in plain language ("morning," "check in," "shutdown," "weekly review"). It runs short protocols, writes structured logs, and over weeks builds a longitudinal record that no human coach could hold in memory.
 
 The coaching style is warm, direct, and willing to push back. It is not a cheerleader. It will tell you when a task is drifting, when a deadline you set with yourself counts as real, and when you are confusing "I worked hard" with "I shipped the thing."
 
 ## What you need
 
 1. **Claude Code** installed on your laptop. Free download: claude.com/claude-code. This is the terminal interface that lets Claude read and write to your files. (Claude on the web or in the app cannot do this — file access is the point.)
-2. **A sync service** (Dropbox, iCloud, Google Drive). Put this whole folder inside it so you can use the system from any device that has Claude Code.
-3. **An editor** for browsing your logs. VS Code is fine. Obsidian is excellent if you want to see the parking lot and patterns visually.
+2. **A sync service (not needed if you always work in the same computer)** (Dropbox, iCloud, Google Drive). Put this whole folder inside it so you can use the system from any device that has Claude Code.
+3. **An editor** for browsing your logs. VS Code is good. Obsidian is excellent if you want to see the parking lot and patterns visually.
+
+## Extensions
+
+Because I work from multiple devices, I set up NanoClaw so an "agent" has acess to the folder and I can communicate with the coaching system via Slack. NanoClaw has many more communication channels.  
 
 ## First-time setup
 
@@ -64,4 +68,4 @@ This bootstrap is tuned for someone who needs **more external pull on long-horiz
 - **The parking lot is sacred.** Never let it become a second to-do list. Nothing in it is obligatory.
 - **Tune everything.** The weekly review exists to modify any parameter. If three tasks is too many, drop to two for a few weeks. If the morning session is too long, shorten it. The structure serves you, not the other way around.
 
-That's it. Open Claude Code in this folder and say "morning."
+Open Claude Code in this folder and say "morning."
